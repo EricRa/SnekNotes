@@ -17,6 +17,14 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#2B6A2E"
             app:popupTheme="@style/Theme.SnekNotes.PopupOverlay" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/app_title"
+                    android:background="match_parent"
+                    android:inputType="text"
+                    android:text="@string/SnekNotes"/>
+
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,6 +37,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
+        android:contentDescription="@string/pencil_icon"
         app:backgroundTint="#2B6A2E"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
